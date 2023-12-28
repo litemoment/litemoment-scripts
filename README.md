@@ -11,7 +11,7 @@ Win:
 
 ffmpeg.org for Win32 binary download and install
 
-Android:
+Android: *You have to copy recording date folder to internal storage before processing
 
 Install Termux (F-Droid has the official release, Play Store version is obseleted)
 
