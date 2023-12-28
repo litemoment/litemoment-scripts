@@ -14,4 +14,5 @@ ffmpeg.org for Win32 binary download and install
 Android:
 
 Install Termux (F-Droid has the official release, Play Store version is obseleted)
+
 pkg install ffmpeg (from termux command line console)
