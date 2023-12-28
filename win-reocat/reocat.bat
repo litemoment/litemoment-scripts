@@ -1,6 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
 
+rem ***********************************************************
+rem * Copyright (c) 2023 litemoment.com. All rights reserved. *
+rem ***********************************************************
+rem Contact: webmaster@litemoment.com
+
+rem Please set E: to your own USB SD card drive letter
 set "targetDir=E:\Mp4Record"
 set "concatFile=concat.txt"
 set "newestDir="
