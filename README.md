@@ -48,14 +48,14 @@ ffmpeg.org for Win32 binary download and install
 
 Install Termux (F-Droid has the official release, Play Store version is obseleted)
 
-**Step 1: Install Termux - Note that F-Droid is the official distribution channel for Termux.**\
+**Step 1: Install Termux - Note that F-Droid is the official distribution channel for Termux.**
 ```bash
 pkg upgr
 pkg install ffmpeg
 termux-setup-storage
 ```
 
-**Step 2: Create a Working Directory**\
+**Step 2: Create a Working Directory**
 ```bash
 mkdir -p storage/dcim/SDUSB/Mp4Record
 cp -r termux-reocat storage/dcim/SDUSB/
@@ -68,5 +68,5 @@ cd storage/dcim/SDUSB/termux-reocat
 bash reocat.sh
 ```
 
-Upon successful execution, a complete 4K video of the event will be generated.
+Upon successful execution, a merged 4K video of the recordings will be generated.
 
