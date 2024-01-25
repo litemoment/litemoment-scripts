@@ -46,6 +46,9 @@ ffmpeg.org for Win32 binary download and install
 
 **Android:** *You have to copy recording date folder to internal storage before processing
 
+Android QR Screen Time Companion App APK download
+https://www.litemoment.com/update/apk/QR_Screen_Time.apk
+
 Install Termux (F-Droid has the official release, Play Store version is obseleted)
 
 **Step 1: Install Termux - Note that F-Droid is the official distribution channel for Termux.**
