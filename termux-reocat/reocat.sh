@@ -8,7 +8,7 @@ cd -- "$(dirname "$BASH_SOURCE")"
 pwd
 
 # SDUSB is the folder under your Android DCIM to store SD card recordings
-SDNAME="SDUSB"
+SDNAME="litemoment"
 MOUNTPATH="../.."
 
 # if allow user input for dir name, uncomment below 2 lines
