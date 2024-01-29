@@ -8,7 +8,7 @@ cd -- "$(dirname "$BASH_SOURCE")"
 pwd
 
 # make sure the SD card name(volumn label) is correct
-SDNAME="YOURCAM"
+SDNAME="REOCAM"
 
 # if allow user input for dir name, uncomment below 2 lines
 # echo "folder name? example: 2023-12-06"
