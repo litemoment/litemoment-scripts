@@ -9,6 +9,10 @@ brew install ffmpeg
 
 copy script folder to hard drive and run, read source code for options
 
+```
+chmod +x reocat.sh.command
+```
+
 **Win:**
 
 copy script folder to hard drive
