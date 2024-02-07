@@ -50,16 +50,33 @@ ffmpeg.org for Win32 binary download and install
 
 **Android:** *You have to copy recording date folder to internal storage before processing
 
+**Experimental: Now you can quickly trim video with Android without PC**
+1. Install termux-reocat scripts
+2. Record QR Screen Time at the beginning of video
+3. Upload lite clicks to cloud after game(LiteButton, WebApp or Flic 2, watch tutorial videos)
+4. Copy video from REOCAM SD card to Android
+5. Run termux-reocat to trim lites in just minutes
+6. Optional: You can use Google photo or other app like "Video Crop" to process trimed lites right on your phone
+
 Android QR Screen Time Companion App APK download
 https://www.litemoment.com/update/apk/QR_Screen_Time.apk
 
-Install Termux (F-Droid has the official release, Play Store version is obseleted)
+Install Termux,Termux:API,Termux:Widget (F-Droid has the official release, Play Store version is obseleted)
 
 **Step 1: Install Termux - Note that F-Droid is the official distribution channel for Termux.**
 ```bash
 pkg upgr
 pkg install ffmpeg
 termux-setup-storage
+pkg install zbar
+pkg install termux-api
+pkg install ffmpeg
+pkg install python
+pkg install opencv-python
+pip install moviepy
+pip install requests
+pip install pyzbar
+pip install ffmpeg-python
 ```
 
 **Step 2: Create a Working Directory**
