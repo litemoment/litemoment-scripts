@@ -77,6 +77,8 @@ pip install moviepy
 pip install requests
 pip install pyzbar
 pip install ffmpeg-python
+
+Note: --fix-missing might be needed
 ```
 
 **Step 2: Create a Working Directory**
