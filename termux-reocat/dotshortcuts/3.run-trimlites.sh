@@ -1,8 +1,8 @@
 #!/bin/bash
 # ***********************************************************
-# * Copyright (c) 2023 litemoment.com. All rights reserved. *
+# * Copyright (c) 2024 litemoment.com. All rights reserved. *
 # ***********************************************************
 # Contact: webmaster@litemoment.com
 
-cd ~/storage/dcim/SDUSB/termux-reocat
-bash reocat.sh
+cd ~/storage/dcim/litemoment/termux-reocat
+bash trimlites.sh videos
