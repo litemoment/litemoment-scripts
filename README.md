@@ -77,6 +77,7 @@ pip install moviepy
 pip install requests
 pip install pyzbar
 pip install ffmpeg-python
+pip install jinja2
 
 Note: --fix-missing might be needed
 ```
