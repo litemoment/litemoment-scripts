@@ -70,7 +70,6 @@ pkg install ffmpeg
 termux-setup-storage
 pkg install zbar
 pkg install termux-api
-pkg install ffmpeg
 pkg install python
 pkg install opencv-python
 pip install moviepy
