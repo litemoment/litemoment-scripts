@@ -91,7 +91,7 @@ echo "Filename: $file_to_process"
 echo "Datetime: $formatted_datetime"
 
 
-read -p "Do you want to continue with this file, b for brightness correction? (y/n/b): " -r
+read -p "Do you want to continue with this file? (y/n): " -r
 
 # Check user input
 if [[ $REPLY =~ ^[Yy]$ ]]; then

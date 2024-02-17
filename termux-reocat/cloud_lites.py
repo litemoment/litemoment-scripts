@@ -181,7 +181,7 @@ if __name__ == "__main__":
     parser.add_argument('--password', default='mypassword', help='Password for the API')
     parser.add_argument('--datetime_string', default='2024-01-24 12:01:49', help='Datetime string in the format YYYY-MM-DD HH:MM:SS')
     parser.add_argument('--input_video', default='in.mp4', help='Input video file')
-    parser.add_argument('-b', '--brightness', action='store_true', help="Set brightness correction")
+    parser.add_argument('-b', '--brightness', default=False, action='store_true', help="Set brightness correction")
 
     # Parse the arguments
     args = parser.parse_args()
