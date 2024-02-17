@@ -70,13 +70,13 @@ pkg install ffmpeg
 termux-setup-storage
 pkg install zbar
 pkg install termux-api
-pkg install ffmpeg
 pkg install python
 pkg install opencv-python
 pip install moviepy
 pip install requests
 pip install pyzbar
 pip install ffmpeg-python
+pip install jinja2
 
 Note: --fix-missing might be needed
 ```
