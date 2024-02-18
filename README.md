@@ -83,14 +83,14 @@ Note: --fix-missing might be needed
 
 **Step 2: Create a Working Directory**
 ```bash
-mkdir -p storage/dcim/litemoment/Mp4Record
-cp -r termux-reocat storage/dcim/litemoment/
+mkdir -p storage/dcim/litemoment-scripts/Mp4Record
+cp -r termux-reocat storage/dcim/litemoment-scripts/
 ```
 
 **Step 3: Usage Instructions**\
 Copy the date directory (e.g., 2023-12-15) from the SD card's Mp4Record to the phone's storage in the directory DCIM/litemoment/Mp4Record using the system file manager. In Termux, enter:
 ```bash
-cd storage/dcim/litemoment/termux-reocat
+cd storage/dcim/litemoment-scripts/termux-reocat
 bash reocat.sh
 ```
 
