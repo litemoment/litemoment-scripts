@@ -18,7 +18,7 @@ cd -- "$(dirname "$BASH_SOURCE")"
 pwd
 
 # SDUSB is the folder under Android's DCIM used for storing SD card recordings
-SDNAME="litemoment"
+SDNAME="litemoment-scripts"
 MOUNTPATH="../.."
 # Define the output directory
 OUTPUTDIR="videos"
