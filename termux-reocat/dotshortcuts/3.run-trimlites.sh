@@ -4,5 +4,5 @@
 # ***********************************************************
 # Contact: webmaster@litemoment.com
 
-cd ~/storage/dcim/litemoment/termux-reocat
+cd ~/storage/dcim/litemoment-scripts/termux-reocat
 bash trimlites.sh videos
