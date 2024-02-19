@@ -121,7 +121,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 		echo "File saved to $new_file_name"
 	fi
 
-	echo "Have you uploaded lites to cloud account, b for extra brightness correction? (y/n/b)"
+	echo "Have you uploaded lites to cloud account? (y/n)"
 	read response
 
 	# Convert response to lowercase for case-insensitive comparison
