@@ -72,6 +72,7 @@ pkg install zbar
 pkg install termux-api
 pkg install python
 pkg install opencv-python
+pkg install rsync
 pip install moviepy
 pip install requests
 pip install pyzbar
