@@ -89,7 +89,7 @@ if [ -d "$IN_DIR" ]; then
 
 	  # Extract the datetime string from the first MP4 file's name
 	  filename="${mp4_files[0]##*/}" # Extract filename from path
-	  if [[ $filename =~ ^RecM02_([0-9]{8})_([0-9]{6}) ]]; then
+	  if [[ $filename =~ ^RecM0([0-9]{1})_([0-9]{8})_([0-9]{6}) ]]; then
 	      datetime_string="${BASH_REMATCH[1]}${BASH_REMATCH[2]}"
 	      echo "Datetime string extracted: $datetime_string"
 		  VIDEOFILENAME="$VIDEODIR-$datetime_string"
