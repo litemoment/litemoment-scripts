@@ -10,6 +10,9 @@ rem Please set E: to your own USB SD card drive letter
 set "targetDir=E:\Mp4Record"
 set "concatFile=concat.txt"
 set "newestDir="
+set "ffmpeg=bin\ffmpeg.exe"
+@REM If use system PATH ffmpeg
+@REM set "ffmpeg=ffmpeg"
 
 rem Ensure the target directory exists
 if not exist "%targetDir%" (
@@ -58,7 +61,7 @@ rem Run ffmpeg to concatenate the files listed in concat.txt into the specified 
 if exist "%concatFile%" (
     rem set "outputFile=%lastSubfolder%_output.mp4"
     rem echo %outputFile%
-    ffmpeg -noautorotate -f concat -safe 0 -i "%concatFile%" -c copy "%outputFile%"
+    "%ffmpeg%" -noautorotate -f concat -safe 0 -i "%concatFile%" -c copy "%outputFile%"
     echo Concatenation complete. Output saved to %outputFile%
     
     rem Delete concat.txt after processing
