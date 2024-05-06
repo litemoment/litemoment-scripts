@@ -25,28 +25,11 @@ set "targetDir=E:\Mp4Record"
 Change the drive letter "E:" to the letter assigned to your computer after inserting the card.
 
 **Step 2: Insert the SD card from the grassroots veo camera and verify the correct drive letter.**\
-Run "reocat.bat." Upon successful execution, a complete 4K video of the event will be generated.
+Run "reocat.bat" Upon successful execution, a complete 4K video of the event will be generated.
 
 ffmpeg.org for Win32 binary download and install
 
-1. Download FFmpeg:
-	- Visit the official FFmpeg website: https://ffmpeg.org/download.html
-	- Scroll down to the "Windows Builds" section.
-	- Click on the link for the latest build.
-2. Extract the Zip File:
-	- After downloading, extract the contents of the zip file to a location on your computer.
-3. Add FFmpeg to System Path:
-	- For convenient usage, you may want to add the path to the FFmpeg executable to your system's PATH environment variable.
-	- Right-click on "This PC" or "Computer" on your desktop or in File Explorer.
-	- Select "Properties."
-	- Click on "Advanced system settings."
-	- Click on "Environment Variables."
-	- Under "System variables," find the "Path" variable and click "Edit."
-	- Click "New" and add the path to the folder containing the FFmpeg executable.
-4. Test FFmpeg Installation:
-	- Open a new Command Prompt or PowerShell window.
-	- Type ffmpeg -version and press Enter. You should see information about the FFmpeg version if the installation was successful.
-
+in win-reocat/bin please read instruction how to download and put ffmpeg exe files in to this folder. You can also edit line 13 of reocat.bat for other folder path.
 
 **Android:** *You have to copy recording date folder to internal storage before processing
 
