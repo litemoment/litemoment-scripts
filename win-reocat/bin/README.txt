@@ -4,6 +4,9 @@ https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-6.0-full_build.7z
 
 Extract and save ffmpeg.exe to this folder
 
+
+Below instruction is for previous version if you want to install to system path
+
 More detailed installation instruction
 
 1. Download FFmpeg:
