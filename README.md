@@ -31,7 +31,7 @@ ffmpeg.org for Win32 binary download and install
 
 in win-reocat/bin please read instruction how to download and put ffmpeg exe files in to this folder. You can also edit line 13 of reocat.bat for other folder path.
 
-Tip: Avidemuxer is my personal favorite video editor for trimming generated mp4 quickly on Win.
+Tip: **Avidemuxer** is my personal favorite video editor for trimming generated mp4 quickly on Win.
 
 **Android:** *You have to copy recording date folder to internal storage before processing
 
